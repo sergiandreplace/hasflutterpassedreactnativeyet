@@ -4,7 +4,6 @@
 
 > This is a fork of the project *Has Vue passed React yet?* by @stursby (https://github.com/stursby/hasvuepassedreactyet). K2 to him. I've just run search and replace and a couple of commands.
 
-> This project is not affiliated to Flutter and is responsability of his author
 
 ![preview](preview.png)
 
