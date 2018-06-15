@@ -31,7 +31,7 @@ module.exports = (ctx, cb) => {
   } = ctx.secrets
 
   const tokens = [GITHUB_TOKEN_1, GITHUB_TOKEN_2, GITHUB_TOKEN_3, GITHUB_TOKEN_4, GITHUB_TOKEN_5]
-  const GITHUB_TOKEN ="ab04c696f3e308bcaa27e37294e9f369cedd0bb8" //" tokens[Math.floor(Math.random() * tokens.length)]
+  const GITHUB_TOKEN =tokens[Math.floor(Math.random() * tokens.length)]
 
   // Github GraphQL axios instance
   const github = axios.create({
